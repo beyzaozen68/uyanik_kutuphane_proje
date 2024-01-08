@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+body
+{
+   background: #262626;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+form{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,.8);
+    width:350px;
+    height:450px;
+
+}
+
+form h2{
+    margin-top:10px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+}
+.label-container {
+    margin-bottom: 0px;
+  }
+
+.label-container label {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: bold;
+}
+.label-container {
+    margin-bottom: 15px; /* Tür seçin yazısı ile tür seçme kutusu arasındaki boşluk */
+  }
+
+  .tur {
+    width: 50%;
+    padding: 5px;
+    outline: none;
+    margin-bottom: -20px; /* Tür seçme kutusu ile "Kaydet" butonu arasındaki boşluk */
+
+  }

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+#menu{
+    height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+#logo{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 80px;
+    color: black;
+    float: left;
+}
+nav{
+    float: right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+}
+nav a:hover{
+    border-bottom: 2px solid;
+    color: black;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+}
+.icon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+#anasayfa{
+    height: 600px;
+    background-image: url("../img/kitaplik2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    .container {
+        height: 100%;
+        display: grid;
+        place-items: center;
+    }
+    
+    img {
+        width: 20%;
+        height: auto;
+        position: absolute;
+        top:50%;
+        left:40%;
+        transform: translate(-0%, -70%);
+    }
+}
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+#icerik{
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(0%, 60%);
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
